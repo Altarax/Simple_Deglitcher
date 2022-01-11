@@ -23,7 +23,7 @@ It's not perfect, but I let you an example of doxygen comments and the outputs. 
 a main file but you can use markdown : https://www.doxygen.nl/manual/markdown.html  
 and in some times I'll create a repo to show how really we can use Doxygen for VHDL code.  
 During my research to learn about Doxygen for VHDL code, I didn't find a lot of information  
-about it and I'll do my best to fix this.  
+about it and I'll do my best to fix it.  
 
 For a nicer CSS on your Doxygen files : https://jothepro.github.io/doxygen-awesome-css/
 
