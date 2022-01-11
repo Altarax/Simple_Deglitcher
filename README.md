@@ -19,7 +19,7 @@ To create the component in your projet, you can use this example :
 
 ## Doxygen
 I'm using Doxygen for professionnal purposes and I'm trying to be more performant with this tool.  
-It's not perfect, but I let you an example of doxygen comments and the outputs. I didn't make  
+It's not perfect, but I let you an example of doxygen comments. I didn't create  
 a main file but you can use markdown : https://www.doxygen.nl/manual/markdown.html  
 and in some times I'll create a repo to show how really we can use Doxygen for VHDL code.  
 During my research to learn about Doxygen for VHDL code, I didn't find a lot of information  
