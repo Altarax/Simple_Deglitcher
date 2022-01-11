@@ -28,4 +28,4 @@ about it and I'll do my best to fix it.
 For a nicer CSS on your Doxygen files : https://jothepro.github.io/doxygen-awesome-css/
 
 ## Improvments
-If you can help to be better and improve my VHDL codes or my comment, please don't hesitate to contact me.
+If you can help me to be better and improve my VHDL codes or my comment, please don't hesitate to contact me.
