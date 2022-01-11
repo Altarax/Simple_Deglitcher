@@ -1,23 +1,4 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 14.10.2021 11:01:50
--- Design Name: 
--- Module Name: Deglitcher_tb - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
+-- Not really using Doxygen for testbenchs yet.
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -32,11 +13,11 @@ architecture Behavioral of Deglitcher_tb is
             O_active    : boolean := False
         );
         port ( 
-            input       : in std_logic; --! Input we want to deglitchs
+            input       : in std_logic;  -- Input we want to deglitch
             clk         : in std_logic;
             reset       : in std_logic;
             
-            output      : out std_logic;--! Basically input deglitched
+            output      : out std_logic; -- Basically input deglitched
             n_output    : out std_logic
         );
     end component;
@@ -73,7 +54,7 @@ begin
             input <= '0'; wait for 15us;
         end process;
     
-    --! 10 Mhz clock
+    -- 10 Mhz clock
     clk_gen: process
         begin
             clk <= '0'; wait for 50ns;
