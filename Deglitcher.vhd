@@ -30,12 +30,12 @@ entity Deglitcher is
         O_active    : boolean := False
     );
     port ( 
-        input       : in std_logic;     --! Input we want to deglitchs
+        input       : in std_logic;     --! Input we want to deglitch
         clk         : in std_logic;
         reset       : in std_logic;
         
         output      : out std_logic;    --! Basically input deglitched
-        n_output    : out std_logic     --! Basically input deglitched
+        n_output    : out std_logic     --! Basically input deglitched but inverted
     );
 end Deglitcher;
 
