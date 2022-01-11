@@ -72,6 +72,9 @@ architecture Behavioral of Deglitcher is
 begin
 
     --! \brief Process used to deglitch a signal at a low (0) state by default.
+    --! \note
+    --! We can add more than 10 signals to extend the security.
+    --! 1 signal = 1 rising edge  
     not_O_active: process(clk, reset)
         begin
         
@@ -128,6 +131,8 @@ begin
     output <= output_s;
     
     --! \brief Process used to deglitch a signal at a high (1) state by default.
+    --! We can add more than 10 signals to extend the security.
+    --! 1 signal = 1 rising edge  
     not_not_O_active: process(clk, reset)
         begin
         
@@ -179,10 +184,5 @@ begin
             end if;
             
         end process;
-        
-        --! \note
-        --! We can add more than 10 signals to extend the security.
-        --! 1 signal = 1 rising edge (calculate the period and the
-        --! needed number of signals)  
-
+       
 end Behavioral;
